@@ -1,0 +1,48 @@
+.login-bg {
+    background-image: url("../../public/image/bg.gif");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 20px;
+    overflow: hidden;
+}
+
+.login-container {
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 800px;
+    background-color: #ffffffbf;
+}
+
+.login-btn {
+    color: #ffffff;
+    background-color: #000;
+    border: 1px solid #000;
+    transition: 0.5s;
+}
+
+.login-btn:hover {
+    background-color: #ffffff;
+    color: #000;
+}
+
+.no-register span a {
+    text-decoration: underline;
+    color: blue;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+    border-bottom: 3px solid rgb(0, 0, 0);
+    -webkit-text-fill-color: rgb(0, 0, 0);
+    -webkit-box-shadow: 0 0 0px 1000px rgba(0, 0, 0, 0) inset;
+    transition: background-color 5000s ease-in-out 0s;
+}

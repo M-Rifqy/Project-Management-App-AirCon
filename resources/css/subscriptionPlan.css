@@ -1,0 +1,70 @@
+.apaantuh {
+    padding: 10px 15px;
+    border-radius: 10px;
+    box-shadow: inset -2px -2px 8px rgba(255, 255, 255, 1),
+        inset -2px -2px 12px rgba(255, 255, 255, 0.5),
+        inset 2px 2px 4px rgba(255, 255, 255, 0.1),
+        inset 2px 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.apaannih {
+    padding: 10px 15px;
+    border-radius: 10px;
+    box-shadow: -2px -2px 8px rgba(255, 255, 255, 1),
+        -2px -2px 12px rgba(255, 255, 255, 0.5),
+        inset 2px 2px 4px rgba(255, 255, 255, 0.1),
+        2px 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.kartu {
+    box-shadow: inset -2px -2px 8px rgba(255, 255, 255, 1),
+        inset -2px -2px 12px rgba(255, 255, 255, 0.5),
+        inset 2px 2px 4px rgba(255, 255, 255, 0.1),
+        inset 2px 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.kartu-btn {
+    box-shadow: -2px -2px 8px rgba(255, 255, 255, 1),
+        -2px -2px 12px rgba(255, 255, 255, 0.5),
+        inset 2px 2px 4px rgba(255, 255, 255, 0.1),
+        2px 2px 8px rgba(0, 0, 0, 0.15);
+    transition: 1s ease;
+}
+
+.kartu-btn:hover {
+    box-shadow: inset -2px -2px 8px rgba(255, 255, 255, 1),
+        inset -2px -2px 12px rgba(255, 255, 255, 0.5),
+        inset 2px 2px 4px rgba(255, 255, 255, 0.1),
+        inset 2px 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.check {
+    backdrop-filter: blur(5px);
+    box-shadow: -2px -2px 8px rgba(255, 255, 255, 1),
+        -2px -2px 12px rgba(255, 255, 255, 0.5),
+        inset 2px 2px 4px rgba(255, 255, 255, 0.1),
+        2px 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.premium-title {
+    color: #ffd700;
+    -webkit-text-stroke: 0.5px #ffe44d;
+}
+
+.basic-title {
+    color: #6b7280;
+    -webkit-text-stroke: 0.5px #9ca3af;
+}
+
+.rp {
+    position: absolute;
+    left: 0px;
+    top: 1px;
+}
+
+.logout-btn {
+    box-shadow: -2px -2px 8px rgba(255, 255, 255, 1),
+        -2px -2px 12px rgba(255, 255, 255, 0.5),
+        inset 2px 2px 4px rgba(255, 255, 255, 0.1),
+        2px 2px 8px rgba(0, 0, 0, 0.15);
+}

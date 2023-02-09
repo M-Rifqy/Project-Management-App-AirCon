@@ -1,0 +1,42 @@
+.d-detail {
+    background-image: url("../../public/image/polygon-bottom.png");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 20px;
+    overflow: hidden;
+}
+
+td,
+th {
+    border: 1px solid #c2c1c1;
+    text-align: center;
+}
+
+th {
+    text-align: center;
+    white-space: nowrap;
+    font-size: 20px;
+}
+
+td {
+    white-space: nowrap;
+}
+
+tr:hover {
+    box-shadow: inset -2px -2px 8px rgba(255, 255, 255, 1),
+        inset -2px -2px 12px rgba(255, 255, 255, 0.5),
+        inset 2px 2px 4px rgba(255, 255, 255, 0.1),
+        inset 2px 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.table-container {
+    padding: 10px;
+    background-color: rgba(232, 234, 236, 0.619);
+    border-radius: 15px;
+    box-shadow: -2px -2px 8px rgba(255, 255, 255, 1),
+        -2px -2px 12px rgba(255, 255, 255, 0.5),
+        inset 2px 2px 4px rgba(255, 255, 255, 0.1),
+        2px 2px 8px rgba(0, 0, 0, 0.15);
+}
